@@ -1,0 +1,29 @@
+{
+  "name": "botchat",
+  "version": "1.0.0",
+  "description": "API.ai Botchat",
+  "main": "app.js",
+  "scripts": {
+    "facebook": "NODE_ENV=development ./node_modules/babel-cli/bin/babel-node.js ./app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elchapu/botchat.git"
+  },
+  "author": "Nicolas Balduzzi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "botkit": "0.5.4",
+    "query-parser": "^0.0.1",
+    "restify": "^4.3.1"
+  }
+}
